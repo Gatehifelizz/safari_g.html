@@ -1,0 +1,36 @@
+body{
+    font-family: "DejaVu Sans";
+    background-color: rgba(154, 179, 40, 0.89);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: 20px;
+}
+#formm-container{
+    background-color: #30a62c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 450px;
+
+}
+.form-group{
+    margin-bottom: 16px;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-family: Chilanka;
+}
+button{
+    background-color: aquamarine;
+    color: black;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 10px;
+    cursor:pointer;
+}

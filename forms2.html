@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/CSS/forms.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>my form</title>
+</head>
+<body>
+<div id="form-container">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="Email">Email Address:</label>
+        <input type="Email" id="Email" name="email" required>
+    </div>
+    <div class="form-grouo">
+        <label for="pass"> Password:</label>
+        <input type="password" id="pass" name="password" required>
+    </div>
+    <div class="form-group">
+        <label for="Mobile no.">phone:</label>
+        <input type="text"id="Mobile no." name="mobile no." required>
+    </div>
+    <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">other</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>interest:</label>
+        <input type="checkbox" id="interest1" name="interest1">
+        <label for="interest1">Coding</label>
+        <input type="checkbox" id="interest2" name="interest2">
+        <label for="interest2">cooking</label>
+        <input type="checkbox" id="interest3" name="interest3">
+        <label for="interest3">playing basket ball</label>
+        <input type="checkbox" id="interest4" name="interest4">
+        <label for="interest4">travelling</label>
+        <input type="checkbox" id="interest5" name="interest5">
+        <label for="interest5">swimming</label>
+    </div>
+    <div class="form-group">
+        <label>choose a programming language:</label>
+        <input type="radio" id="lang1" name="lang1" value="Kotlin">
+        <label for="lang1">Kotlin</label>
+        <input type="radio" id="lang2" name="lang2" value="Python">
+        <label for="lang2">python</label>
+        <input type="radio" id="lang3" name="lang3" value="java">
+        <label for="lang3">java</label>
+        <input type="radio" id="lang4" name="lang4" value="php">
+        <label for="lang4">php</label>
+        <input type="radio" id="lang5" name="lang5" value="go">
+        <label for="lang5">go</label>
+    </div>
+    <div class="form-group">
+        <label for="message">Additional information</label>
+        <textarea name="message" id="message" ></textarea>
+    </div>
+    <div class="form-group">
+        <button type="submit" >submit</button>
+    </div>
+</div>
+
+</body>
+</html>

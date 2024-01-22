@@ -1,0 +1,30 @@
+.cars{
+    border: 3px solid #0D1F23;
+    text-align: center;
+    font-family: Inconsolata;
+    background-color: bisque;
+    margin: 20px;
+    padding: 50px ;
+    font-size: 20px;
+}
+.fruits{
+    border: 3px solid #2B124C;
+    text-align: center;
+    font-family: cursive;
+    font-size: 150%;
+    background-color: bisque;
+    margin: 20px;
+    padding: 50px;
+}
+.shoes{
+    border: 3px solid #0D1F23;
+    text-align: center;
+    font-family: Chilanka;
+    background-color: olivedrab;
+    margin: 20px;
+    padding: 20px ;
+    font-size: 150%;
+}
+#computers{
+
+}

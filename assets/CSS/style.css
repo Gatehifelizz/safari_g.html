@@ -1,0 +1,35 @@
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px;
+    float: right;
+}
+td,th{
+    padding: 20px;
+    border: 2px solid black;
+}
+th{
+    font-family: "Courier 10 Pitch";
+    text-align: left;
+    color: #0D1F23;
+    padding:20px ;
+}
+h2 {
+    text-align: center;
+    font-family: Inconsolata;
+    color: #2B124C ;
+}
+td{
+    font-size: medium;
+    text-align: left;
+    font-family: Inconsolata;
+    color: #0D1F23;
+    border-radius: 10px;
+    border-radius: 20px;
+}
+tr:nth-child(even){
+    background-color: bisque;
+}
+tr:nth-child(odd){
+    background-color: olivedrab;
+}
